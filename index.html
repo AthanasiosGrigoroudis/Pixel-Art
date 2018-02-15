@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pixel.it</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
+
+<head>
+  <title>Pixel Art Maker!</title>
+  <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+</head>
+
+<body>
+  <div id="title-container" class="shadow">
+    <h1>Pixel.it</h1>
+  </div>
+  <div class=left-col>
+    <div id="grid-settings" class="small-shadow">
+      <h2>Grid Settings</h2>
+      <label for="grid-width">
+        <span>Grid Width:</span>
+        <input type="number" id="grid-width" class="input-field hover-shadow" name="height" value="10" min="1" max="50" />
+            </label>
+      <label for="grid-height">
+                <span>Grid Height:</span>
+                <input type="number" id="grid-height" class="input-field hover-shadow" name="width" value="10" min="1" max="50" />
+            </label>
+      <input type="button" id="create-button" class="hover-shadow no-focus" value="Create" />
+    </div>
+  </div>
+  <div class="right-col">
+    <div id="main-panel">
+      <div class="toolbox">
+        <input type="color" id="color-picker" class="toolbox-element hover-shadow no-focus">
+        <button type="button" id="reset-button" class="toolbox-element hover-shadow no-focus">Reset</button>
+      </div>
+      <p class="tip"><strong>TIP:</strong> Double-click on a cell to remove color.</p>
+      <table id="canvas" class="hover-shadow">
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer>Pixel.it by Athanasios Grigoroudis, February 2018</footer>
+</body>
+
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+body {
+  text-align: center;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  display: block;
+  background-color: #444444;
+}
+
+#title-container {
+  height: 12em;
+  line-height: 12em;
+  background-color: #111111;
+}
+
+h1 {
+  font-family: "Alex Brush";
+  font-size: 8em;
+  letter-spacing: 0.1em;
+  margin: auto;
+  color: #e73c70;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+.left-col {
+  float: left;
+  width: 25%;
+  margin-top: 40px;
+}
+
+.right-col {
+  float: left;
+  width: 75%;
+  margin-top: 40px;
+}
+
+#grid-settings {
+  min-width: 12em;
+  max-width: 13em;
+  margin: auto;
+  padding: 1px 12px 10px;
+  font: 1.5em Arial, Helvetica, sans-serif;
+  background-color: #222222;
+  border-radius: 0 20px 20px 20px;
+}
+
+#grid-settings h2 {
+  border-bottom: 1px solid #f05685;
+  font-size: 1.5em;
+  padding-bottom: 3px;
+  font-weight: normal;
+  color: #bbbbbb;
+}
+
+#grid-settings label {
+  display: block;
+  margin: 0px 0px 15px;
+  line-height: 0.65em;
+  color: #bbbbbb;
+  font-weight: normal;
+  font-size: 1.1em;
+}
+
+#grid-settings label > span {
+  width: 100px;
+  float: left;
+  padding-top: 8px;
+  padding-right: 5px;
+}
+
+#grid-settings input.input-field {
+  width: 5em;
+}
+
+#grid-settings input[type="button"] {
+  width: 95%;
+}
+
+#create-button {
+  border-radius: 15px;
+  background-color: #111111;
+  color: #bbbbbb;
+  -webkit-appearance: none;
+  padding: 0.3em 0;
+  border: 1px solid #111111;
+}
+
+#create-button:active {
+  background-color: #171717;
+}
+
+#main-panel {
+  text-align: center;
+  margin: 0 auto 50px auto;
+}
+
+.toolbox {
+  width: auto;
+  background-color: #888888;
+  height: 4em;
+  line-height: 4em;
+  margin: 0 30px;
+}
+
+.toolbox-element {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: 100%;
+}
+
+input[type="color"] {
+  -webkit-appearance: none;
+  border: none;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+#reset-button {
+  background-color: #151515;
+  color: #bbbbbb;
+  -webkit-appearance: none;
+  padding: 0.3em 0;
+  border: 1px solid #111111;
+  font-size: 1.7em;
+  letter-spacing: 0.18em;
+}
+
+#reset-button:active {
+  background-color: #1b1b1b;
+}
+
+.tip {
+  margin: 15px auto;
+  width: 80%;
+  height: 30px;
+  font-size: 1.6em;
+  background-color: #151515dd;
+  color: #bbbbbb;
+  border-radius: 15px;
+  line-height: 30px;
+  padding-left: 0.8em;
+}
+
+.tip strong {
+  color: #e73c70;
+}
+
+table,
+tr,
+td {
+  border: 1px solid #222222;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+  background-color: #ffffff;
+}
+
+td:hover {
+  -moz-box-shadow: inset 0px 0px 15px 50px #00000022;
+  -webkit-box-shadow: inset 0px 0px 15px 50px #00000022;
+  box-shadow: inset 0px 0px 15px 50px #00000022;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #222222;
+  width: 20%;
+  font-size: 1.3em;
+  letter-spacing: 1.2px;
+  color: #bbbbbb;
+  padding: 0.3em;
+}
+
+.shadow {
+  -moz-box-shadow: 0px 0px 15px 0px #f05685;
+  -webkit-box-shadow: 0px 0px 15px 0px #f05685;
+  box-shadow: 0px 0px 15px 0px #f05685;
+}
+
+.small-shadow {
+  -moz-box-shadow: 0px 0px 5px 0px #f05685;
+  -webkit-box-shadow: 0px 0px 5px 0px #f05685;
+  box-shadow: 0px 0px 5px 0px #f05685;
+}
+
+.hover-shadow:hover {
+  -moz-box-shadow: 0px 0px 5px 0px #f05685;
+  -webkit-box-shadow: 0px 0px 5px 0px #f05685;
+  box-shadow: 0px 0px 5px 0px #f05685;
+}
+
+.no-focus {
+  outline: 0;
+}
